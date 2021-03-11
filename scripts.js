@@ -195,7 +195,7 @@ const Form = {
             //salvar
             Transaction.add(transaction)
             //apagar os dados do formulário
-            Form.clearFileds()
+            Form.clearFields()
             //modal feche
             Modal.close()      
         } catch(error){
